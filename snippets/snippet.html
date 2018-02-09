@@ -1,0 +1,39 @@
+<!-- BEGIN JEEWIDGET -->
+	<div id='JeeWidget'>
+		<!-- MAIN CANVAS : --><canvas id='JeeWidgetCanvas'></canvas>
+		<!-- BEGIN UPLOAD PICTURE BUTTON -->
+			<div class='JeeWidgetHiddenFileInput'>
+			   <input type='file' id='JeeWidgetFileInput' />
+			</div>
+
+			<button id='JeeWidgetFileInputButton'>Choose image from file</button>
+		<!-- END UPLOAD PICTURE BUTTON -->
+		<!-- BACK TO REALTIME VIDEO BUTTON : --><button id='JeeWidgetBackToRealtimeButton'>Back to video</button>
+		<!-- ADJUST BUTTON : --><div id='JeeWidgetAdjust'></div>
+		<!-- BEGIN ADJUST NOTICE -->
+		<div id='JeeWidgetAdjustNotice'>
+			You can move the glasses yeah !
+			<button id='JeeWidgetAdjustExit'>Quitter</button>
+		</div>
+		<!-- END AJUST NOTICE -->
+
+		<!-- BEGIN LOADING -->
+		<div id='JeeWidgetLoading'>
+			 <div class='JeeWidgetLoadingWheel'>
+		      <svg viewBox='0 0 32 32' width='32' height='32'>
+		        <circle id='spinner' cx='16' cy='16' r='14' fill='none' />
+		      </svg>
+		    </div>
+		</div>
+		<!-- END LOADING -->
+		<!-- BEGIN FALLBACK (upload picture) NOTICE -->
+		<div id='JeeWidgetUploadNotice'>
+			Please upload a picture to tryon your glasses
+			<div class='JeeWidgetHiddenFileInput'>
+			   <input type='file' id='JeeWidgetFileInputNotice' />
+			</div>
+			<button id='JeeWidgetFileInputButtonNotice'>Choose image from file</button>
+		</div>
+		<!-- END FALLBACK (upload picture) NOTICE -->
+	</div>
+	<!-- END JEEWIDGET --> 
