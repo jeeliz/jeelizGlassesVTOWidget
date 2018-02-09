@@ -3,7 +3,7 @@
 With this widget, you can include a glasses virtual try-on widget on your website.
 
 You can test it with these demos :
-* [Simple integration demo](https://jeeliz.com/demos/jeelizGlassesVTOWidget/integrationDemo2)
+* [Simple integration demo (demo.html of this repo)](https://jeeliz.com/demos/jeelizWidgetGitPublicDemo)
 * [Jeeliz sunglasses application (not included in this repo)](https://jeeliz.com/sunglasses)
 * [Video screenshot of the Jeeliz sunglasses application](https://www.youtube.com/watch?v=62E5HOUOD0A&t=25)
 
