@@ -1,6 +1,10 @@
 body {
   background-color: white;
   text-align: center;
+  font-family: Helvetica Neu, Arial, sans-serif;
+  margin: 0;
+  padding: 0;`
+  color: #444;
 }
 #JeeWidget {
   width: 800px;
@@ -11,12 +15,20 @@ body {
 }
 
 
+
+
 #JeeWidgetCanvas {
   left: 0;
   right: 0;
   margin: 0 auto;
 }
-
+@media (max-width: 1024px) {
+  #JeeWidget {
+    width: calc(100vw - 40px);
+    height: calc(100vh - 80px);
+    margin: 20px;
+  }
+}
 #JeeWidgetQuitButton {
   color: #FAFAFA;
   text-shadow: 0 0 1px black;
@@ -29,13 +41,12 @@ body {
   font-size: 17pt;
 }
 
-#JeeWidgetAdjust {
+.JeeWidgetBottomButton {
   height: 30px;
-  width: 30px;
   cursor: pointer;
   display: none;
   background: #FAFAFA;
-  border-radius: 100%;
+  border-radius: 3px;
   box-shadow: 0 0 2px black;
   display: flex;
   justify-content: center;
@@ -45,10 +56,69 @@ body {
   transition: background 0.2s, color 0.2s;
   position: absolute;
   bottom: 34px;
-  left: calc(50% + 100px);
   padding: 0;
+  font-size: 9pt;
+  padding: 0 5px;
+  border: none;
 }
-#JeeWidgetAdjust:hover {
+#JeeWidgetAdjust {
+  right: 145px;
+}
+@media (max-width: 1024px) {
+  .JeeWidgetBottomButton {
+    bottom: 80px;
+  }
+  #JeeWidgetAdjust {
+    left: 20px;
+    right: auto;
+  }
+}
+
+.buttonResize {
+  right: 20px;
+}
+.buttonIcon {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 12pt;
+}
+.changeModelContainer {
+  position: absolute;
+  bottom: 34px;
+  left: 20px;
+  font-size: 9pt;
+  color: white;
+  text-shadow: 0 0 1px black;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .changeModelContainer {
+    bottom: 20px;
+  }
+}
+.changeModelButton {
+  height: 30px;
+  cursor: pointer;
+  display: none;
+  background: #FAFAFA;
+  border-radius: 3px;
+  box-shadow: 0 0 2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #444;
+  padding: 0 10px;
+  transition: background 0.2s, color 0.2s;
+  padding: 0;
+  font-size: 9pt;
+  padding: 0 5px;
+  border: none;  
+  margin-left: 10px;
+}
+#JeeWidgetAdjust:hover,
+.changeModelButton:hover,
+.buttonResize:hover {
   background: #444;
   color: white;
 }
@@ -63,9 +133,8 @@ body {
 #JeeWidgetAdjustNotice {
   width: 100%;
   position: absolute;
-  background-color: rgba(0,0,0,0.5);
   color: white;
-  bottom: 0px;
+  bottom: 20px;
   height: 35px;
   text-align: none;
   display: none;
@@ -73,6 +142,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 3px 3px 0 0;
+  text-shadow: 0 0 1px black;
 }
 
 #JeeWidgetAdjustNoticeText {
@@ -158,7 +228,9 @@ body {
 }
 
 .JeeWidgetHiddenFileInput{
-  height:0px; overflow:hidden;
+  height: 0px;
+  opacity: 0;
+  overflow:hidden;
   position: absolute;
 }
 
@@ -177,8 +249,8 @@ body {
   box-shadow: 0 0 2px black;
   transition: background 0.1s ease-in-out, color 0.1s ease-in-out;
   position: absolute;
-  top: 25px;
-  left: 25px;
+  top: 20px;
+  left: 20px;
 }
 
 #JeeWidgetFileInputButton:hover {
@@ -221,4 +293,133 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,0.3);
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  box-shadow: 0 0 3px black;
+  overflow: hidden;
+  z-index: 10;
+  position: relative;
+  background: #FAFAFA;
+}
+.headerTitle {
+  font-size: 24pt;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(12, 127, 194);
+  font-weight: bold;
+  position: relative;
+  height: 50px;
+  margin-left: 40px;
+}
+.headerSubtitle {
+  position: absolute;
+  font-size: 12pt;
+  bottom: -3px;
+  right: 0;
+  color: #444;
+  font-weight: normal;
+}
+@media (max-width: 1024px) {
+  header {
+    justify-content: center;
+    height: 40px;
+  }
+  .headerTitle {
+    font-size: 18pt;
+    height: 40px;
+    margin: 0;
+  }
+  .headerSubtitle {
+    font-size: 10pt;
+    bottom: 2px;
+  }
+}
+.headerNav {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 222px);
+  color: #444;
+  display: none;
+}
+.headerNavMen {
+  margin-left: auto;
+}
+.headerNavCategories {
+  margin-right: auto;
+}
+.headerNavMen,
+.headerNavWomen,
+.headerNavCategories {
+  padding: 0 10px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.headerNavMen:hover,
+.headerNavWomen:hover,
+.headerNavCategories:hover {
+  color: rgb(12, 127, 194);
+}
+.headerNavCategories {
+  margin-right: 40px;
+}
+.headerNavSearch {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.headerNavSearch input {
+  height: 30px;
+  border-radius: 3px 0 0 3px;
+  border: 1px solid lightgrey;
+  padding: 0;
+  padding-left: 5px;
+  font-size: 11pt;
+}
+.headerNavSearch input:focus {
+  outline: none;
+}
+.headerNavSearch button {
+  height: 32px;
+  background: #444;
+  color: white;
+  border-radius: 0 3px 3px 0;
+  border: 1px solid #444;
+  cursor: pointer;
+}
+
+.headerNavSearch button:focus {
+  outline: none;
+}
+.headerNavCart {
+  margin-right: 40px;
+  color: #444;
+  position: relative;
+  font-size: 20pt;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.headerNavCart:hover {
+  color: rgb(12, 127, 194);
+}
+.headerNavCartNumber {
+  color: white!important;
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  font-size: 8pt;
+}
+
+main {
+  background: url('https://jeeliz.com/images/bg.png');
+  background-size: 20%;
+  padding-top: 20px;
+}
+@media (max-width: 1024px) {
+  main {
+    padding-top: 0px;
+  }
 }
