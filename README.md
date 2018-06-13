@@ -9,8 +9,8 @@ With this JavaScript widget, you can offer glasses virtual try on to your users.
 ## Features
 These are the main features of this widget :
 
-* real-time webcam glasses virtual tryon,
-* fallback to picture,
+* real-time webcam glasses virtual try on,
+* fallback to picture based virtual try on,
 * light reconstruction (ambient + directionnal),
 * very robust to all lighting conditions,
 * mobile friendly,
