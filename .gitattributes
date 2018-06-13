@@ -1,0 +1,4 @@
+# https://hackernoon.com/how-to-change-repo-language-in-github-c3e07819c5bb for more infos
+css/* linguist-vendored
+*.html linguist-vendored
+snippets/* linguist-vendored
