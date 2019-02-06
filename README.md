@@ -40,6 +40,16 @@ Here is a video screenshot of the Jeeliz Sunglasses application :
 This API uses Jeeliz WebGL Deep Learning technology to detect and track the user's face using a neural network.
 You can find the technical documentation in [doc.pdf](/doc.pdf).
 
+We have written some articles to help you for integration:
+
+* [How to use the Jeeliz VTO widget in your everyday projects](https://jeeliz.com/blog/how-to-use-the-jeeliz-vto-widget-in-your-everyday-projects/)
+* [Advanced use of the Jeeliz Widget VTO API](https://jeeliz.com/blog/advanced-use-of-the-jeeliz-widget-vto-api/)
+
+If you still need more help, we also offer development services. You can contact-us [here](https://jeeliz.com/contact-us/).
+
+
+
+
 ### Compatibility
 * If `WebGL2` is available, it uses `WebGL2` and no specific extension is required,
 * If `WebGL2` is not available but `WebGL1`, we require either `OES_TEXTURE_FLOAT` extension or `OES_TEXTURE_HALF_FLOAT` extension,
