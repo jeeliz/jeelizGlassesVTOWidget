@@ -2,7 +2,7 @@
 
 
 
-With this JavaScript widget, you can offer glasses virtual try on to your users. It can be included either on a website or in a mobile web application. It is very easy to integrate: only few lines of HTML code are required. If the user has a webcam, the experience is in real-time: the user see his face like in a mirror, but with glasses on. If he refuses to share his camera or if his configuration is not compatible, nevermind, the fallback version is displayed. He can still upload a picture and it is processed server-side to add the glasses on.
+With this JavaScript widget, you can offer glasses virtual try on to your users. It can be easily integrated on a website or in a mobile web application with a few lines of HTML code. If the user has a webcam, the experience is in real-time: the user see his face like in a mirror, but with glasses on. If he refuses to share his camera or if his configuration is not compatible, nevermind, the fallback version is displayed. He can still upload a picture and it is processed server-side to add the glasses on.
 
 
 
@@ -44,6 +44,7 @@ We have written some articles to help you for integration:
 
 * [How to use the Jeeliz VTO widget in your everyday projects](https://jeeliz.com/blog/how-to-use-the-jeeliz-vto-widget-in-your-everyday-projects/)
 * [Advanced use of the Jeeliz Widget VTO API](https://jeeliz.com/blog/advanced-use-of-the-jeeliz-widget-vto-api/)
+* [Create a VTO experience from start to sale](https://jeeliz.com/blog/create-a-glasses-vto-experience-from-start-to-sale-with-the-jeeliz-glasses-vto-widget/)
 
 If you still need more help, we also offer development services. You can contact-us [here](https://jeeliz.com/contact-us/).
 
