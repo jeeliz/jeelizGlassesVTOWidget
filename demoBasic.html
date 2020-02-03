@@ -4,12 +4,12 @@
 		<title>JEEWIDGET RELEASE TEST</title>
 		<meta charset='utf-8' />
 
-		<script type='text/javascript' src='https://appstatic.jeeliz.com/jeewidget/JeelizNNCwidget.js'></script>
+		<script src='release/JeelizNNCwidget.js'></script>
 		
-		<script type='text/javascript'>
-			//function which are used only for this functionnal test
+		<script>
+			// function which are used only for this functionnal test
 			function test_resizeCanvas(){
-				var wid=document.getElementById('JeeWidget');
+				const wid=document.getElementById('JeeWidget');
 				wid.style.width='1000px';
 			};
 		</script>
@@ -20,7 +20,7 @@
 		sku: 'rayban_aviator_or_vertFlash',
 		searchImageMask: 'https://appstatic.jeeliz.com/jeewidget/images/target.png',
 		searchImageColor: 0xff0000,
-		onError: function(){ alert('ERROR') }
+		onError: function(errorLabel){ alert('AN ERROR HAPPENED: ' + errorLabel); }
 	})">
 
 	<h1>JEEWIDGET BASIC INTEGRATION TEST</h1>
@@ -29,18 +29,24 @@
 	<div id='JeeWidget'>
 		<!-- MAIN CANVAS : --><canvas id='JeeWidgetCanvas'></canvas>
 		<!-- BEGIN UPLOAD PICTURE BUTTON -->
+    <!--
+      THE FALLBACK MODE (VTO FROM IMAGE)
+      IS DEPRECATED SINCE 2020-02-02
+    --><!--
 			<div class='JeeWidgetHiddenFileInput'>
 			   <input type='file' id='JeeWidgetFileInput' />
 			</div>
 
 			<button id='JeeWidgetFileInputButton'>Choose image from file</button>
+    -->
 		<!-- END UPLOAD PICTURE BUTTON -->
-		<!-- BACK TO REALTIME VIDEO BUTTON : --><button id='JeeWidgetBackToRealtimeButton'>Back to video</button>
+		<!-- BACK TO REALTIME VIDEO BUTTON : -->
+    <!-- <button id='JeeWidgetBackToRealtimeButton'>Back to video</button> -->
 		<!-- ADJUST BUTTON : --><div id='JeeWidgetAdjust'></div>
 		<!-- BEGIN ADJUST NOTICE -->
 		<div id='JeeWidgetAdjustNotice'>
-			You can move the glasses yeah !
-			<button id='JeeWidgetAdjustExit'>Quitter</button>
+			You can move the glasses yeah!
+			<button id='JeeWidgetAdjustExit'>Exit</button>
 		</div>
 		<!-- END AJUST NOTICE -->
 
@@ -54,6 +60,10 @@
 		</div>
 		<!-- END LOADING -->
 		<!-- BEGIN FALLBACK (upload picture) NOTICE -->
+    <!--
+      THE FALLBACK MODE (VTO FROM IMAGE)
+      IS DEPRECATED SINCE 2020-02-02
+    --><!--
 		<div id='JeeWidgetUploadNotice'>
 			Please upload a picture to tryon your glasses
 			<div class='JeeWidgetHiddenFileInput'>
@@ -61,6 +71,7 @@
 			</div>
 			<button id='JeeWidgetFileInputButtonNotice'>Choose image from file</button>
 		</div>
+   -->
 		<!-- END FALLBACK (upload picture) NOTICE -->
 	</div>
 	<!-- END JEEWIDGET -->

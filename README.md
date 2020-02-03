@@ -2,15 +2,13 @@
 
 
 
-With this JavaScript widget, you can offer glasses virtual try on to your users. It can be easily integrated on a website or in a mobile web application with a few lines of HTML code. If the user has a webcam, the experience is in real-time: the user see his face like in a mirror, but with glasses on. If he refuses to share his camera or if his configuration is not compatible, nevermind, the fallback version is displayed. He can still upload a picture and it is processed server-side to add the glasses on.
-
+With this JavaScript widget, you can offer glasses virtual try on to your users. It can be easily integrated on a website or in a mobile web application with a few lines of HTML code.The experience is in real-time: the user see his face like in a mirror, but with glasses on.
 
 
 ## Features
 These are the main features of this widget :
 
 * real-time webcam glasses virtual try on,
-* fallback to picture based virtual try on,
 * light reconstruction (ambient + directionnal),
 * very robust to all lighting conditions,
 * mobile friendly,
@@ -33,6 +31,9 @@ Here is a video screenshot of the Jeeliz Sunglasses application :
 <a href='https://www.youtube.com/watch?v=peUDRXB0H6g'><img src='https://img.youtube.com/vi/peUDRXB0H6g/0.jpg'></a>
 </p>
 
+## Fallback
+A Fallback version was available til January 2020. The server side webservice generating the rendering has been undeployed.
+So now, if the user does not want to share its camera or if its implementation of WebGL is too minimalistic, a `FALLBACKUNAVAILABLE` error will be triggered.
 
 
 ## About the technology
@@ -63,8 +64,6 @@ If a compatibility error is triggered, please post an issue on this repository. 
 * a screenshot of [webglreport.com - WebGL2](http://webglreport.com/?v=2) (about your `WebGL2` implementation),
 * the log from the web console,
 * the steps to reproduce the bug, and screenshots.
-
-If the user cannot use the realtime video version because its implementation of WebGL is too minimalistic or if he does not want to share his camera, the fallback version is displayed. On the fallback version the user upload a picture (or take a picture with his camera if he uses a mobile device) and the picture is processed server-side to overlay the glasses.
 
 
 
