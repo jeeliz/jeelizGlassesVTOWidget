@@ -5,25 +5,25 @@
     <meta charset='utf-8' />
 
     <!-- INCLUDE MAIN SCRIPT -->
-    <script src='release/JeelizNNCwidget.js'></script>
+    <script type='text/javascript' src='https://appstatic.jeeliz.com/jeewidget/JeelizNNCwidget.js'></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script>
-      // function which are used only for this functionnal test:
+    <script type='text/javascript'>
+      // function which are used only for this functionnal test
       function test_resizeCanvas() {
         const wid = document.getElementById('JeeWidget')
         wid.style.width = '1000px'
       }
 
-      // main function, launched with body.onload():
+      // main function, launched with body.onload()
       function main() {
         JEEWIDGET.start({
           sku: 'rayban_aviator_or_vertFlash',
           searchImageMask: 'https://appstatic.jeeliz.com/jeewidget/images/target.png',
           searchImageColor: 0xff0000,
-          onError: function(errorLabel){ // this function catches errors, so you can display custom integrated messages:
-            alert('An error happened. errorLabel = ' + errorLabel)
+          onError: function(errorLabel){ // this function catches errors, so you can display custom integrated messages
+            alert('An error happened. errorLabel =' + errorLabel)
             switch(errorLabel) {
               case 'NOFILE':
                 // the user send an image, but it is not here
@@ -88,18 +88,13 @@
       <div id='JeeWidget'>
         <!-- MAIN CANVAS : --><canvas id='JeeWidgetCanvas'></canvas>
         <!-- BEGIN UPLOAD PICTURE BUTTON -->
-        <!--
-          THE FALLBACK MODE (VTO FROM IMAGE)
-          IS DEPRECATED SINCE 2020-02-02
-        --><!--
           <div class='JeeWidgetHiddenFileInput'>
              <input type='file' id='JeeWidgetFileInput' />
           </div>
 
           <button id='JeeWidgetFileInputButton'><div class="buttonIcon"><i class="far fa-image"></i></div>Try on a picture</button>
-        -->
         <!-- END UPLOAD PICTURE BUTTON -->
-        <!-- BACK TO REALTIME VIDEO BUTTON : --><!-- <button id='JeeWidgetBackToRealtimeButton'>Back to video</button> -->
+        <!-- BACK TO REALTIME VIDEO BUTTON : --><button id='JeeWidgetBackToRealtimeButton'>Back to video</button>
         <!-- ADJUST BUTTON : -->
         <div class='JeeWidgetBottomButton' id='JeeWidgetAdjust'>
           <div class="buttonIcon"><i class="fas fa-arrows-alt"></i></div>Adjust the frame
