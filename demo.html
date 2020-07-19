@@ -3,13 +3,18 @@
   <head>
     <title>JEELIZ VTO WIDGET INTEGRATION DEMO</title>
     <meta charset='utf-8' />
-
-    <!-- INCLUDE MAIN SCRIPT -->
-    <script type='text/javascript' src='https://appstatic.jeeliz.com/jeewidget/JeelizNNCwidget.js'></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type='text/javascript'>
+    
+    <!-- INCLUDE MAIN SCRIPT (you can also use the main script in release/)  -->
+    <script src='https://appstatic.jeeliz.com/jeewidget/JeelizNNCwidget.js'></script>
+
+    <!-- for icons adjust fame or resize canvas -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <!-- for a better font: -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    
+    <script>
       // function which are used only for this functionnal test
       function test_resizeCanvas() {
         const wid = document.getElementById('JeeWidget')
@@ -21,7 +26,7 @@
         JEEWIDGET.start({
           sku: 'rayban_aviator_or_vertFlash',
           searchImageMask: 'https://appstatic.jeeliz.com/jeewidget/images/target.png',
-          searchImageColor: 0xff0000,
+          searchImageColor: 0xeeeeee,
           onError: function(errorLabel){ // this function catches errors, so you can display custom integrated messages
             alert('An error happened. errorLabel =' + errorLabel)
             switch(errorLabel) {
@@ -38,7 +43,7 @@
                 break
 
               case 'FALLBACKUNAVAILABLE':
-                // we cannot switch to file upload mode. browser too old ?
+                // we cannot switch to file upload mode. browser too old?
                 break
 
               case 'FATAL':
@@ -62,38 +67,12 @@
         <div class="headerSubtitle">
           VTO Widget Demo
         </div>
-      </div>
-      <div class="headerNav">
-        <div class="headerNavMen">
-          Men
-        </div>
-        <div class="headerNavWomen">
-          Women
-        </div>
-        <div class="headerNavCategories">
-          Categories
-        </div>
-        <div class="headerNavSearch">
-          <input type="text">
-          <button><i class="fas fa-search"></i></button>
-        </div>
-        <div class="headerNavCart">
-          <i class="fas fa-shopping-cart"></i>
-          <div class="headerNavCartNumber">0</div>
-        </div>
-      </div>
+      </div>      
     </header>
     <main>
       <!-- BEGIN JEEWIDGET -->
       <div id='JeeWidget'>
         <!-- MAIN CANVAS : --><canvas id='JeeWidgetCanvas'></canvas>
-        <!-- BEGIN UPLOAD PICTURE BUTTON -->
-          <div class='JeeWidgetHiddenFileInput'>
-             <input type='file' id='JeeWidgetFileInput' />
-          </div>
-
-          <button id='JeeWidgetFileInputButton'><div class="buttonIcon"><i class="far fa-image"></i></div>Try on a picture</button>
-        <!-- END UPLOAD PICTURE BUTTON -->
         <!-- BACK TO REALTIME VIDEO BUTTON : --><button id='JeeWidgetBackToRealtimeButton'>Back to video</button>
         <!-- ADJUST BUTTON : -->
         <div class='JeeWidgetBottomButton' id='JeeWidgetAdjust'>
@@ -108,7 +87,7 @@
         </div>
         <!-- BEGIN ADJUST NOTICE -->
         <div id='JeeWidgetAdjustNotice'>
-          You can move the glasses yeah !
+          You can move the glasses yeah!
           <button class='JeeWidgetBottomButton' id='JeeWidgetAdjustExit'>Quit</button>
         </div>
         <!-- END AJUST NOTICE -->
@@ -122,18 +101,6 @@
             </div>
         </div>
         <!-- END LOADING -->
-        <!-- BEGIN FALLBACK (upload picture) NOTICE -->
-        <!--div id='JeeWidgetUploadNotice'>
-          Please upload a picture to tryon your glasses
-          <div class='JeeWidgetHiddenFileInput'>
-             <input type='file' id='JeeWidgetFileInputNotice' />
-          </div>
-          <button id='JeeWidgetFileInputButtonNotice'>Choose image from file</button>
-        </div-->
-        <!-- END FALLBACK (upload picture) NOTICE -->
-
-
-
       </div>
       <!-- END JEEWIDGET -->    
     </main>
