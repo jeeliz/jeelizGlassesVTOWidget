@@ -16,7 +16,7 @@ body {
   box-sizing: border-box;
 }
 
-button {
+button, select {
   cursor: pointer;
   background: rgba(0, 0, 0, 0.5);
   color: #ddd;
@@ -27,6 +27,7 @@ button {
   min-width: 120px;
   border: none;
   margin: 0;
+  -webkit-appearance: none;
 }
 
 button:hover {
