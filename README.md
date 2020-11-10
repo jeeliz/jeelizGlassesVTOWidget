@@ -66,7 +66,7 @@ Unlike this widget, *Glasses studio 3D* works:
 However, the capabilities of *Glasses Studio 3D* are below what we offer with *GlassesDB*. This is a comparison:
 
 | Feature | Glasses Studio 3D | GlassesDB |
-| --- | --- | --- |
+| --- | :-: | :-: |
 | PBR material parameters | X | X |
 | diffuse texture | X | X |
 | normal texture  | X | X |
