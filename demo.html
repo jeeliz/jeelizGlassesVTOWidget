@@ -20,9 +20,9 @@
     <link rel='stylesheet' href='css/JeeWidget.css' />
 
     <script>
+      // halves the height:
       let _isResized = false;
       function test_resizeCanvas() {
-        // halves the height:
         let halfHeightPx = Math.round(window.innerHeight / 2).toString() + 'px';
         
         const domWidget = document.getElementById('JeeWidget');
@@ -120,7 +120,7 @@
         <div class='JeeWidgetControls' id='JeeWidgetChangeModelContainer'>
           <button onclick="JEEWIDGET.load('rayban_aviator_or_vertFlash')">Model 1</button>
           <button onclick="JEEWIDGET.load('rayban_round_cuivre_pinkBrownDegrade')">Model 2</button>
-          <button onclick="JEEWIDGET.load('rayban_wayfarer_denimNoir_bleuMirroir')">Model 3</button>
+          <button onclick="JEEWIDGET.load_modelStandalone('glasses3D/glasses1.json')">Model 3</button>
         </div>
 
         <!-- BEGIN ADJUST NOTICE -->
