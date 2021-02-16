@@ -33,7 +33,7 @@ Offer glasses virtual try on to your users with this JavaScript widget. It can b
 ## Demonstrations
 
 You can test it with these demos:
-* [Integration demo (demo.html of this repository)](https://jeeliz.com/demos/jeelizWidgetGitPublicDemo)
+* [Integration demo (`index.html` of this repository)](https://jeeliz.com/demos/jeelizWidgetGitPublicDemo)
 * [Jeeliz sunglasses web application (not included in this repository)](https://jeeliz.com/sunglasses)
 
 Video screenshot of *Jeeliz Sunglasses*:
