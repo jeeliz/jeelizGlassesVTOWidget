@@ -36,10 +36,11 @@ You can test it with these demos:
 * [Integration demo (`index.html` of this repository)](https://jeeliz.com/demos/jeelizWidgetGitPublicDemo)
 * [Jeeliz sunglasses web application (not included in this repository)](https://jeeliz.com/sunglasses)
 
-Video screenshot of *Jeeliz Sunglasses*:
+<!-- Video screenshot of *Jeeliz Sunglasses*:
 <p align="center">
 <a href='https://www.youtube.com/watch?v=peUDRXB0H6g'><img src='https://img.youtube.com/vi/peUDRXB0H6g/0.jpg'></a>
 </p>
+-->
 
 ## Glasses 3D models
 
@@ -123,13 +124,13 @@ So it is normal that the GPU is running at 100%. But it may be annoying for othe
 
 The first solution ( implemented in [Jeeliz sunglasses web-app](https://jeeliz.com/sunglasses) ) is to slow down the glasses rendering once the user has clicked on a button using:
  ```
-JEEFITAPI.relieve_DOM(<durationInMs>)
+JEELIZVTO.relieve_DOM(<durationInMs>)
 ```
-For example,`JEEFITAPI.relieve_DOM(300)` will free the GPU during 300 milliseconds.
+For example,`JEELIZVTO.relieve_DOM(300)` will free the GPU during 300 milliseconds.
 
 If you need to slow down the rendering to free the GPU during an undertermined period of time, you can use:
 ```
-JEEFITAPI.switch_slow(<boolean> isSlow, <int> intervalMs)
+JEELIZVTO.switch_slow(<boolean> isSlow, <int> intervalMs)
 ```
 Where `intervalMs` is the interval in milliseconds between 2 rendering loops.
 
