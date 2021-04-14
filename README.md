@@ -142,4 +142,4 @@ This widget access the user's camera video stream through `MediaStream API`. So 
 
 ## License
 
-[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html). This application is free for both commercial and non-commercial use.
+[Apache 2.0 Software license](/LICENSE)
