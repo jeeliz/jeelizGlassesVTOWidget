@@ -114,7 +114,7 @@ If the user does not want to share its camera or if its implementation of WebGL 
 
 If you meet some performance issues, please first:
 
-* Check that you are using the latest main script ( `/release/jeelizNNCwidget.js` ),
+* Check that you are using the latest main script ( `/dist/jeelizNNCwidget.js` ),
 * Check that your browser is updated (Chrome is advised), check that your graphic drivers are updated,
 * Enter `chrome://gpu` in the URL bar and check there are no major performance caveats, that hardware acceleration is enabled, that your GPU is correctly detected,
 
