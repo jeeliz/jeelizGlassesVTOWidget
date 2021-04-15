@@ -5,12 +5,15 @@
 Offer glasses virtual try on to your users with this JavaScript widget. It can be easily integrated on a website or in a mobile web application with a few lines of HTML code. The experience is in real-time: the user see his face like in a mirror, but with glasses on.
 
 ## Table of contents
+
 * [Features](#features)
 * [Demonstrations](#demonstrations)
 * [Glasses 3D models](#glasses-3d-models)
   * [From GlassesDB](#from-glassesdb)
   * [As a static file](#as-a-static-file)
 * [Documentation](#documentation)
+* [Misc](#misc)
+  * [Test GlassesDB SKU availability](#test-glassesdb-sku-availability)
 * [Compatibility](#compatibility)
 * [Optimization](#optimization)
 * [Hosting](#hosting)
@@ -89,6 +92,24 @@ Here are some articles to help you for integration:
 * [Create a VTO experience from start to sale](https://jeeliz.com/blog/create-a-glasses-vto-experience-from-start-to-sale-with-the-jeeliz-glasses-vto-widget/)
 
 If you need more help, we offer development services and customized support. You can contact-us [here](https://jeeliz.com/contact-us/).
+
+
+## Misc
+
+### Test GlassesDB SKU availability
+
+In some cases, SKU can be generated dynamically from the backoffice of the glasses e-commerce website. It can be `<glassesMakerAsPrefix>_<collection>_<modelId>`. We need to test if this SKU is in *GlassesDB* in order to display the Virtual Try-on button to the user.
+To do this, request with `GET` or `POST` method (using an `XMLHttpRequest` for example):
+
+```
+https://glassesdbcached.jeeliz.com/testSku/<skuToTest>
+```
+
+You can test it here:
+
+* [For existing SKU "rayban_aviator_or_vertFlash"](https://glassesdbcached.jeeliz.com/testSku/rayban_aviator_or_vertFlash)
+* [For non-existing SKU "notASKU"](https://glassesdbcached.jeeliz.com/testSku/notASKU)
+
 
 
 ## Compatibility
