@@ -43,6 +43,10 @@
           onError: function(errorLabel){ // this function catches errors, so you can display custom integrated messages
             alert('An error happened. errorLabel =' + errorLabel)
             switch(errorLabel) {
+              case 'WEBCAM_UNAVAILABLE':
+                // the user has no camera, or does not want to share it.
+                break;
+          
               case 'NOFILE':
                 // the user send an image, but it is not here
                 break;

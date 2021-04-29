@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Regular.ttf)
+}
+
+@import 'variables';
+
+html {
+  font-size: $root-font-size;
+  font-family: $font-family;
+  max-width: $page-width;
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+  background-color: white;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+}
+
+p {
+  font-size: $paragraph-font-size;
+}
+
+
+.JeelizVTOWidget {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vh;
+  max-height: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.JeelizVTOWidgetCanvas {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.JeelizVTOWidgetControls {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+.JeelizVTOWidgetButton {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ddd;
+  font-weight: bold;
+  font-variant: small-caps;  
+  font-size: 16px;
+  padding: 8px;
+  min-width: 120px;
+  border: none;
+  margin: 8px;
+}
+.JeelizVTOWidgetAdjustEnterButton {
+  
+}
+.JeelizVTOWidgetAdjustNotice {
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  z-index: 3;
+  font-size: 16px;
+  bottom: 0;  
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: none;
+}
+.JeelizVTOWidgetAdjustExitButton {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}
+.JeelizVTOWidgetLoading {
+  position: fixed;
+  z-index: 4;
+  cursor: wait;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+}
+.JeelizVTOWidgetLoadingText {
+  color: white;
+  font-size: 32pt;
+  margin-top: 40vh;
+}
+.JeelizVTOWidgetChangeModelContainer {
+  bottom: 0;
+}

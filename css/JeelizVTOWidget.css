@@ -141,7 +141,7 @@ button:hover {
   bottom: 8px;
 }
 
-/* Hide everything, stuffs will be displayed by jeewidget: */
+/* Hide everything, stuffs will be displayed by JeelizVTOWidget: */
 #JeelizVTOWidgetAdjust {
   display: none;
 }

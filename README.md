@@ -36,9 +36,10 @@ Offer glasses virtual try on to your users with this JavaScript widget. It can b
 ## Demonstrations
 
 You can test it with these demos:
-* [Integration demo (`index.html` of this repository)](https://jeeliz.com/demos/jeelizWidgetGitPublicDemo)
-* [Jeeliz sunglasses web application (not included in this repository)](https://jeeliz.com/sunglasses)
 
+* [Static Integration demo (`index.html` of this repository)](https://jeeliz.com/demos/jeelizWidgetGitPublicDemo)
+* [React/Webpack/NPM Integration demo](/reactIntegrationDemo)
+* [Jeeliz sunglasses web application (not included in this repository)](https://jeeliz.com/sunglasses)
 <!-- Video screenshot of *Jeeliz Sunglasses*:
 <p align="center">
 <a href='https://www.youtube.com/watch?v=peUDRXB0H6g'><img src='https://img.youtube.com/vi/peUDRXB0H6g/0.jpg'></a>
