@@ -7,6 +7,7 @@ html, body {
 }
 
 body {
+  overflow: hidden;
   background-color: white;
   text-align: center;
   font-family: Helvetica Neu, Arial, sans-serif;
@@ -99,7 +100,7 @@ button:hover {
   height: 40px;  
 }
 #JeelizVTOWidgetChangeModelContainer > button {
-  width: 30%;
+  width: 20%;
   min-width: auto;
 }
 

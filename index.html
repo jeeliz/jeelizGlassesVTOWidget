@@ -31,6 +31,7 @@
         _isResized = !_isResized;
       }
 
+
       // entry point:
       function main() {
         JEELIZVTOWIDGET.start({
@@ -77,6 +78,15 @@
           } // end onError()
         }) // end JEELIZVTOWIDGET.start call
       } // end main()
+
+
+      function load_modelBySKU(){
+        const sku = prompt('Please enter a glasses model SKU:', 'rayban_wayfarer_havane_marron');
+        if (sku){
+          JEELIZVTOWIDGET.load(sku);
+        }
+      }
+
     </script>
   </head>
 
@@ -125,6 +135,7 @@
           <button onclick="JEELIZVTOWIDGET.load('rayban_aviator_or_vertFlash')">Model 1</button>
           <button onclick="JEELIZVTOWIDGET.load('rayban_round_cuivre_pinkBrownDegrade')">Model 2</button>
           <button onclick="JEELIZVTOWIDGET.load_modelStandalone('glasses3D/glasses1.json')">Model 3</button>
+          <button onclick="load_modelBySKU()">by SKU</button>
         </div>
 
         <!-- BEGIN ADJUST NOTICE -->

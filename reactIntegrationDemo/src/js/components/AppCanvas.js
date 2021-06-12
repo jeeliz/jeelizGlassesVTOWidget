@@ -7,7 +7,6 @@ import searchImage from '../../images/target.png'
 
 
 function init_VTOWidget(placeHolder, canvas, toggleLoading){
-  //console.log(searchImage); debugger;
   JEELIZVTOWIDGET.start({
     placeHolder,
     canvas,
