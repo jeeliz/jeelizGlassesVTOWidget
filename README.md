@@ -86,11 +86,12 @@ However, the capabilities of *Glasses Studio 3D* are below what we offer with *G
 This library relies on *Jeeliz WebGL Deep Learning technology* to detect and track the face using a neural network.
 You can find the technical documentation in [doc.pdf](/doc.pdf).
 
-Here are some articles to help you for integration:
+<!-- Here are some articles to help you for integration:
 
 * [How to use the Jeeliz VTO widget in your everyday projects](https://jeeliz.com/blog/how-to-use-the-jeeliz-vto-widget-in-your-everyday-projects/)
 * [Advanced use of the Jeeliz Widget VTO API](https://jeeliz.com/blog/advanced-use-of-the-jeeliz-widget-vto-api/)
 * [Create a VTO experience from start to sale](https://jeeliz.com/blog/create-a-glasses-vto-experience-from-start-to-sale-with-the-jeeliz-glasses-vto-widget/)
+-->
 
 If you need more help, we offer development services and customized support. You can contact-us [here](https://jeeliz.com/contact-us/).
 
@@ -118,8 +119,6 @@ You can test it here:
 * If `WebGL2` is available, it uses `WebGL2` and no specific extension is required,
 * If `WebGL2` is not available but `WebGL1`, we require either `OES_TEXTURE_FLOAT` extension or `OES_TEXTURE_HALF_FLOAT` extension,
 * If `WebGL2` is not available, and if `WebGL1` is not available or neither `OES_TEXTURE_FLOAT` or `OES_HALF_TEXTURE_FLOAT` are implemented, the user is not compatible with the real time video version.
-
-In all cases, *MediaStream API* should be implemented in the web browser, otherwise FaceFilter API will not be able to get the camera video feed. Here are the compatibility tables from [caniuse.com](https://caniuse.com/) here: [WebGL1](https://caniuse.com/#feat=webgl), [WebGL2](https://caniuse.com/#feat=webgl2), [MediaStream API](https://caniuse.com/#feat=stream).
 
 If a compatibility error is triggered, please post an issue on this repository. If this is a problem with the camera access, please first retry after closing all applications which could use your device (Skype, Messenger, other browser tabs and windows, ...). Please include:
 
