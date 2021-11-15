@@ -160,6 +160,24 @@
  * limitations under the License.
 */
 
+ /**
+ * Jeeliz Glasses VTO Widget - https://github.com/jeeliz/jeelizGlassesVTOWidget
+ *
+ * Copyright 2020 WebAR.rocks ( https://webar.rocks )
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+*/
+
 /* eslint-disable */
 let JEELIZVTO=null;let JEELIZVTOWIDGET=null;var $jscomp=$jscomp||{};$jscomp.scope={};$jscomp.arrayIteratorImpl=function(ha){var oa=0;return function(){return oa<ha.length?{done:!1,value:ha[oa++]}:{done:!0}}};$jscomp.arrayIterator=function(ha){return{next:$jscomp.arrayIteratorImpl(ha)}};$jscomp.ASSUME_ES5=!1;$jscomp.ASSUME_NO_NATIVE_MAP=!1;$jscomp.ASSUME_NO_NATIVE_SET=!1;$jscomp.SIMPLE_FROUND_POLYFILL=!1;$jscomp.ISOLATE_POLYFILLS=!1;
 $jscomp.defineProperty=$jscomp.ASSUME_ES5||"function"==typeof Object.defineProperties?Object.defineProperty:function(ha,oa,wa){if(ha==Array.prototype||ha==Object.prototype)return ha;ha[oa]=wa.value;return ha};$jscomp.getGlobal=function(ha){ha=["object"==typeof globalThis&&globalThis,ha,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var oa=0;oa<ha.length;++oa){var wa=ha[oa];if(wa&&wa.Math==Math)return wa}throw Error("Cannot find global object");};
