@@ -32,10 +32,20 @@
       }
 
 
+      function get_initialSKU(){
+        // look if a SKU is provided as a URL parameters:
+        const queryString = window.location.search;
+        const URLParams = new URLSearchParams(queryString);
+        const sku = URLParams.get('sku') || 'rayban_aviator_or_vertFlash';
+        console.log('Initial SKU =', sku);
+        return sku;
+      }
+
+
       // entry point:
       function main() {
         JEELIZVTOWIDGET.start({
-          sku: 'rayban_aviator_or_vertFlash',
+          sku: get_initialSKU(),
           searchImageMask: 'https://appstatic.jeeliz.com/jeewidget/images/target.png',
           searchImageColor: 0xeeeeee,
           callbackReady: function(){
