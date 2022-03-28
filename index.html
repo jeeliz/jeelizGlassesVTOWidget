@@ -50,6 +50,10 @@
           searchImageColor: 0xeeeeee,
           callbackReady: function(){
             console.log('INFO: JEELIZVTOWIDGET is ready :)');
+
+            // add a LUT to change video rendering:
+            //JEELIZVTOWIDGET.set_LUT('images/LUTs/LUTGrayscale.png');
+            //JEELIZVTOWIDGET.set_LUT('images/LUTs/LUTImprove.jpg');
           },
           onError: function(errorLabel){ // this function catches errors, so you can display custom integrated messages
             alert('An error happened. errorLabel =' + errorLabel)
