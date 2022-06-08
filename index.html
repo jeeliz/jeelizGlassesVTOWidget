@@ -21,6 +21,7 @@
 
     <script>
       let _isResized = false;
+
       function test_resizeCanvas() {
         // halves the height:
         let halfHeightPx = Math.round(window.innerHeight / 2).toString() + 'px';
@@ -42,9 +43,17 @@
       }
 
 
+      function get_isShadow(){
+        const queryString = window.location.search;
+        const URLParams = new URLSearchParams(queryString);
+        return URLParams.get('isHideShadow') ? false : true;
+      }
+
+
       // entry point:
       function main() {
         JEELIZVTOWIDGET.start({
+          isShadow: get_isShadow(),
           sku: get_initialSKU(),
           searchImageMask: 'https://appstatic.jeeliz.com/jeewidget/images/target.png',
           searchImageColor: 0xeeeeee,
