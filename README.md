@@ -24,8 +24,11 @@ Offer glasses virtual try on to your users with this JavaScript widget. It can b
 
 * real-time web based glasses virtual try on,
 * light reconstruction (ambient + directionnal),
-* very robust to lighting conditions,
-* mobile friendly,
+* very robust to:
+  * lighting conditions (back light, side light),
+  * facial variations (bearded people, hair partially covering the face, ...),
+* works both on mobile (IOS, Android) and desktop,
+* lightweight (2.1MB transferred for the demo including 3D models),
 * high end 3D engine with:
   * physically based rendering (PBR),
   * raytraced shadows,
@@ -35,11 +38,24 @@ Offer glasses virtual try on to your users with this JavaScript widget. It can b
 
 ## Demonstrations
 
-You can test it with these demos:
+### Included in this repository
 
 * [Static Integration demo (`index.html` of this repository)](https://jeeliz.com/demos/jeelizWidgetGitPublicDemo)
 * [React/Webpack/NPM Integration demo](/reactIntegrationDemo)
+
+### Demo app
+
 * [Jeeliz sunglasses web application (not included in this repository)](https://jeeliz.com/sunglasses)
+
+### They trust us
+
+* **Lensway**: you can test it here: [Reverse - matte dark blue product page](https://www.lensway.se/reverse-matte-dark-blue-frame-8656) (click on *Prova Digitalt* button below the product picture). Following Lensway design guidelines, the rendering is very simplified (no lenses, no shadows, no too shiny reflections),
+
+* **Jean Paul Gaultier**: You can test it here: [Sunglasses by Karim Benzema](https://fashion.jeanpaulgaultier.com/en/products/56-6106-sunglasses-by-karim-benzema-gold) (click on the *Virtual Try-on* button). As a luxury brand, *Jean Paul Gaultier* is very attached to the realism of the rendering and the quality of the AR experience,
+
+* **Zeelool**: you can test it here: [Street-Artist product page](https://www.zeelool.com/goods-detail/ZVFT0271-01) (click on *AR Try on* on the top left of the product picture. They are still using a deprecated version of the viewer so the tracking jitters a bit).
+
+
 <!-- Video screenshot of *Jeeliz Sunglasses*:
 <p align="center">
 <a href='https://www.youtube.com/watch?v=peUDRXB0H6g'><img src='https://img.youtube.com/vi/peUDRXB0H6g/0.jpg'></a>
