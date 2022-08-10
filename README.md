@@ -2,12 +2,18 @@
 
 
 
-Offer glasses virtual try on to your users with this JavaScript widget. It can be easily integrated on a website or in a mobile web application with a few lines of HTML code. The experience is in real-time: the user see his face like in a mirror, but with glasses on.
+Offer glasses virtual try-on to your users with this JavaScript widget. It can be easily integrated into an e-commerce website or into a mobile web application with a few lines of code. The experience is in real-time: the user see his face like in a mirror, but with glasses on.
+
+You can find more information in [Jeeliz Official website](https://jeeliz.com).
+
 
 ## Table of contents
 
 * [Features](#features)
 * [Demonstrations](#demonstrations)
+  * [Included in this repository](#included-in-this-repository)
+  * [Demo app](#demo-app)
+  * [They trust us](#they-trust-us)
 * [Glasses 3D models](#glasses-3d-models)
   * [From GlassesDB](#from-glassesdb)
   * [As a static file](#as-a-static-file)
