@@ -43,10 +43,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jeeliz/jeelizFaceFilter"
+    "url": "git@github.com:jeeliz/jeelizGlassesVTOWidget"
   },
   "dependencies": {
-    "jeelizvtowidget": "^2.3.7",
+    "jeelizvtowidget": "^2.3.9",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
