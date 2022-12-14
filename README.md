@@ -59,6 +59,8 @@ You can find more information in [Jeeliz Official website](https://jeeliz.com).
 
 * **Jean Paul Gaultier**: You can test it here: [Sunglasses by Karim Benzema](https://fashion.jeanpaulgaultier.com/en/products/56-6106-sunglasses-by-karim-benzema-gold) (click on the *Virtual Try-on* button). As a luxury brand, *Jean Paul Gaultier* is very attached to the realism of the rendering and the quality of the AR experience,
 
+* **Pardon!**: You can test it here: [sunglasses Trou de Fer](https://www.pardon.re/lunettes-de-soleil-trou-de-fer.html) (click on the *VIRTUAL TRY ON* button on the bottom right of the product picture). As the iconic fashion-wear brand from the island of Réunion, *Pardon!* need a high-quality graphic rendering to show the quality of the materials of their sunglasses, especially for the engraved wooden branches,
+
 * **Zeelool**: you can test it here: [Street-Artist product page](https://www.zeelool.com/goods-detail/ZVFT0271-01) (click on *AR Try on* on the top left of the product picture. They are still using a deprecated version of the viewer so the tracking jitters a bit).
 
 
