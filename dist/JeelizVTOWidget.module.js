@@ -58,6 +58,36 @@
 
  
 
+/**
+ * Jeeliz Glasses VTO Widget - https://github.com/jeeliz/jeelizGlassesVTOWidget
+ *
+ * Copyright 2020 WebAR.rocks ( Jeeliz® - https://jeeliz.com )
+ *
+ * This software library is the proprietary and confidential information of
+ * Jeeliz ("Licensor"). You may only use this software library if
+ * you have obtained a valid commercial license from Licensor. If you have not
+ * obtained a valid commercial license from Licensor, please check out
+ * https://jeeliz.com/#pricing for licensing options and pricing.
+ *
+ * Unauthorized use, reproduction, or distribution of this software library or
+ * any portion thereof may result in severe civil and criminal penalties, and
+ * will be prosecuted to the maximum extent possible under the law.
+ *
+ * THIS SOFTWARE LIBRARY IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+ * WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE LIBRARY, EVEN
+ * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+ 
+
  /**
  * Jeeliz Glasses VTO Widget - https://github.com/jeeliz/jeelizGlassesVTOWidget
  *
