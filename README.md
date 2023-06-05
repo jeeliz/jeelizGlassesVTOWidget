@@ -71,7 +71,11 @@ Here are the most important reasons why you should consider adding a virtual try
 
 * **Lensway**: you can test it here: [Reverse - matte dark blue product page](https://www.lensway.se/reverse-matte-dark-blue-frame-8656) (click on *Prova Digitalt* button below the product picture). Following Lensway design guidelines, the rendering is very simplified (no lenses, no shadows, no too shiny reflections),
 
-* **Jean Paul Gaultier**: In 2022, they released a limited edition of sunglasses inspired by Karim Benzema. You can watch a [video screenshot](https://twitter.com/WebARRocks/status/1551926190318944259?s=20) of this great experience. As a luxury brand, *Jean Paul Gaultier* is very attached to the realism of the rendering and the quality of the AR experience,
+* **Jean Paul Gaultier**: You can test it here: [Arceau Gold product page](https://fashion.jeanpaulgaultier.com/en/products/the-gold-55-3175-sunglasses) (click on the *Virtual Try-on* button). As a luxury brand, *Jean Paul Gaultier* is very attached to the realism of the rendering and the quality of the AR experience,
+
+
+<!-- * **Jean Paul Gaultier**: In 2022, they released a limited edition of sunglasses inspired by Karim Benzema. You can watch a [video screenshot](https://twitter.com/WebARRocks/status/1551926190318944259?s=20) of this great experience. As a luxury brand, *Jean Paul Gaultier* is very attached to the realism of the rendering and the quality of the AR experience,
+-->
 
 <!-- You can test it here: [Sunglasses by Karim Benzema](https://fashion.jeanpaulgaultier.com/en/products/56-6106-sunglasses-by-karim-benzema-gold) (click on the *Virtual Try-on* button). As a luxury brand, *Jean Paul Gaultier* is very attached to the realism of the rendering and the quality of the AR experience, -->
 
