@@ -238,6 +238,96 @@
 
  
 
+/**
+ * Jeeliz Glasses VTO Widget - https://github.com/jeeliz/jeelizGlassesVTOWidget
+ *
+ * Copyright 2020 WebAR.rocks ( Jeeliz® - https://jeeliz.com )
+ *
+ * This software library is the proprietary and confidential information of
+ * Jeeliz ("Licensor"). You may only use this software library if
+ * you have obtained a valid commercial license from Licensor. If you have not
+ * obtained a valid commercial license from Licensor, please check out
+ * https://jeeliz.com/#pricing for licensing options and pricing.
+ *
+ * Unauthorized use, reproduction, or distribution of this software library or
+ * any portion thereof may result in severe civil and criminal penalties, and
+ * will be prosecuted to the maximum extent possible under the law.
+ *
+ * THIS SOFTWARE LIBRARY IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+ * WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE LIBRARY, EVEN
+ * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+ 
+
+/**
+ * Jeeliz Glasses VTO Widget - https://github.com/jeeliz/jeelizGlassesVTOWidget
+ *
+ * Copyright 2020 WebAR.rocks ( Jeeliz® - https://jeeliz.com )
+ *
+ * This software library is the proprietary and confidential information of
+ * Jeeliz ("Licensor"). You may only use this software library if
+ * you have obtained a valid commercial license from Licensor. If you have not
+ * obtained a valid commercial license from Licensor, please check out
+ * https://jeeliz.com/#pricing for licensing options and pricing.
+ *
+ * Unauthorized use, reproduction, or distribution of this software library or
+ * any portion thereof may result in severe civil and criminal penalties, and
+ * will be prosecuted to the maximum extent possible under the law.
+ *
+ * THIS SOFTWARE LIBRARY IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+ * WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE LIBRARY, EVEN
+ * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+ 
+
+/**
+ * Jeeliz Glasses VTO Widget - https://github.com/jeeliz/jeelizGlassesVTOWidget
+ *
+ * Copyright 2020 WebAR.rocks ( Jeeliz® - https://jeeliz.com )
+ *
+ * This software library is the proprietary and confidential information of
+ * Jeeliz ("Licensor"). You may only use this software library if
+ * you have obtained a valid commercial license from Licensor. If you have not
+ * obtained a valid commercial license from Licensor, please check out
+ * https://jeeliz.com/#pricing for licensing options and pricing.
+ *
+ * Unauthorized use, reproduction, or distribution of this software library or
+ * any portion thereof may result in severe civil and criminal penalties, and
+ * will be prosecuted to the maximum extent possible under the law.
+ *
+ * THIS SOFTWARE LIBRARY IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+ * WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE LIBRARY, EVEN
+ * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+ 
+
 /* eslint-disable */
 let JEELIZVTO=null;let JEELIZVTOWIDGET=null;var $jscomp=$jscomp||{};$jscomp.scope={};$jscomp.owns=function(ma,oa){return Object.prototype.hasOwnProperty.call(ma,oa)};$jscomp.ASSUME_ES5=!1;$jscomp.ASSUME_NO_NATIVE_MAP=!1;$jscomp.ASSUME_NO_NATIVE_SET=!1;$jscomp.SIMPLE_FROUND_POLYFILL=!1;$jscomp.ISOLATE_POLYFILLS=!1;$jscomp.defineProperty=$jscomp.ASSUME_ES5||"function"==typeof Object.defineProperties?Object.defineProperty:function(ma,oa,qa){if(ma==Array.prototype||ma==Object.prototype)return ma;ma[oa]=qa.value;return ma};
 $jscomp.getGlobal=function(ma){ma=["object"==typeof globalThis&&globalThis,ma,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var oa=0;oa<ma.length;++oa){var qa=ma[oa];if(qa&&qa.Math==Math)return qa}throw Error("Cannot find global object");};$jscomp.global=$jscomp.getGlobal(this);$jscomp.IS_SYMBOL_NATIVE="function"===typeof Symbol&&"symbol"===typeof Symbol("x");$jscomp.TRUST_ES6_POLYFILLS=!$jscomp.ISOLATE_POLYFILLS||$jscomp.IS_SYMBOL_NATIVE;
