@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useRef, useEffect } from 'react'
 
 import { JEELIZVTO, JEELIZVTOWIDGET } from 'jeelizvtowidget'
 
@@ -6,15 +6,15 @@ import searchImage from '../../images/target.png'
 
 
 
-function init_VTOWidget(placeHolder, canvas, toggleLoading){
+function init_VTOWidget(placeHolder, canvas, toggle_loading){
   JEELIZVTOWIDGET.start({
     placeHolder,
     canvas,
     callbacks: {
       ADJUST_START: null,
       ADJUST_END: null,
-      LOADING_START: toggleLoading.bind(null, true),
-      LOADING_END: toggleLoading.bind(null, false)
+      LOADING_START: toggle_loading.bind(null, true),
+      LOADING_END: toggle_loading.bind(null, false)
     },
     sku: 'empty', // SKU loadded at the beginning
     // image displayed when face is not found:
@@ -59,7 +59,7 @@ function AppCanvas(props){
   const refChangeModel = useRef();
   const refLoading = useRef();
 
-  const toggleLoading = (isLoadingVisible) => {
+  const toggle_loading = (isLoadingVisible) => {
     refLoading.current.style.display = (isLoadingVisible) ? 'block' : 'none';
   }
 
@@ -84,7 +84,7 @@ function AppCanvas(props){
   useEffect(() => {
     const placeHolder = refPlaceHolder.current;
     const canvas = refCanvas.current;
-    init_VTOWidget(placeHolder, canvas, toggleLoading);
+    init_VTOWidget(placeHolder, canvas, toggle_loading);
 
     return () => {
       JEELIZVTOWIDGET.destroy();
