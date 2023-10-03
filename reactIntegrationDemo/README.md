@@ -5,10 +5,17 @@
 
 This demo is fully standalone. To make it work, run from this path:
 
-```
+```bash
 npm install
 npm run start
 ```
+
+It has been tested with NodeJS v12. To set the right NVM version please run:
+
+```bash
+nvm use 12
+```
+
 Jeeliz VTO widget is used through the [NPM jeelizvtowidget package](https://www.npmjs.com/package/jeelizvtowidget).
 
 
