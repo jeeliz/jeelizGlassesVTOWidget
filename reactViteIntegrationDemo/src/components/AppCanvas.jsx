@@ -4,7 +4,7 @@ import { JEELIZVTO, JEELIZVTOWIDGET } from 'jeelizvtowidget'
 //import { JEELIZVTO, JEELIZVTOWIDGET } from '../../../../../npm/package/index.js'
 
 
-import searchImage from '../assets/target.png'
+import searchImage from '../assets/target512.jpg'
 
 
 

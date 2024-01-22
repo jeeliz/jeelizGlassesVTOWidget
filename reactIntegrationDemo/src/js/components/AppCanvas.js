@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react'
 
 import { JEELIZVTO, JEELIZVTOWIDGET } from 'jeelizvtowidget'
 
-import searchImage from '../../images/target.png'
+import searchImage from '../../images/target512.jpg'
 
 
 
