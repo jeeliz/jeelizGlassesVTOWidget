@@ -1,12 +1,12 @@
 # Glasses Virtual Try-on Widget
 
+**WARNING: This repository (Jeeliz VTO widget) is for our legacy solution. For our new AI powered solution presented on [jeeliz.com](https://jeeliz.com), where glasses 3D models are done from pictures extracted from the product page, you don't need to integrate Jeeliz VTO widget. In this case we directly provide the integration code**
 
+<!-- *Are you looking for a way to revolutionize the eyewear shopping experience for your customers? Look no further than the **Jeeliz VTO widget**! It offers seamless integration into your e-commerce website or mobile application with just a few lines of code, allowing your customers to try on glasses virtually in real-time.*
 
-Are you looking for a way to revolutionize the eyewear shopping experience for your customers? Look no further than the **Jeeliz VTO widget**! It offers seamless integration into your e-commerce website or mobile application with just a few lines of code, allowing your customers to try on glasses virtually in real-time.
+*Imagine your customers being able to see themselves in the perfect pair of glasses before making a purchase, all from the comfort of their own home. With the Jeeliz VTO widget, this dream can become a reality. Say goodbye to the guesswork and uncertainty that often come with online shopping, and say hello to increased customer engagement, satisfaction, and loyalty.* -->
 
-Imagine your customers being able to see themselves in the perfect pair of glasses before making a purchase, all from the comfort of their own home. With the Jeeliz VTO widget, this dream can become a reality. Say goodbye to the guesswork and uncertainty that often come with online shopping, and say hello to increased customer engagement, satisfaction, and loyalty.
-
-You can find more information on [Jeeliz Official website](https://jeeliz.com).
+<!-- You can find more information on [Jeeliz Official website](https://jeeliz.com). -->
 
 
 ## Table of contents
@@ -18,8 +18,8 @@ You can find more information on [Jeeliz Official website](https://jeeliz.com).
   * [Demo app](#demo-app)
   * [They trust us](#they-trust-us)
 * [Glasses 3D models](#glasses-3d-models)
-  * [From GlassesDB](#from-glassesdb)
-  * [As a static file](#as-a-static-file)
+<!--   * [From GlassesDB](#from-glassesdb)
+  * [As a static file](#as-a-static-file) -->
 * [Documentation](#documentation)
 * [Misc](#misc)
   * [Test GlassesDB SKU availability](#test-glassesdb-sku-availability)
@@ -74,12 +74,6 @@ Here are the most important reasons why you should consider adding a virtual try
 
 * **Jean Paul Gaultier**: You can test it here: [Arceau Gold product page](https://fashion.jeanpaulgaultier.com/en/products/the-gold-55-3175-sunglasses) (click on the *Virtual Try-on* button). As a luxury brand, *Jean Paul Gaultier* is very attached to the realism of the rendering and the quality of the AR experience,
 
-
-<!-- * **Jean Paul Gaultier**: In 2022, they released a limited edition of sunglasses inspired by Karim Benzema. You can watch a [video screenshot](https://twitter.com/WebARRocks/status/1551926190318944259?s=20) of this great experience. As a luxury brand, *Jean Paul Gaultier* is very attached to the realism of the rendering and the quality of the AR experience,
--->
-
-<!-- You can test it here: [Sunglasses by Karim Benzema](https://fashion.jeanpaulgaultier.com/en/products/56-6106-sunglasses-by-karim-benzema-gold) (click on the *Virtual Try-on* button). As a luxury brand, *Jean Paul Gaultier* is very attached to the realism of the rendering and the quality of the AR experience, -->
-
 * **Pardon!**: You can test it here: [sunglasses Trou de Fer](https://www.pardon.re/lunettes-de-soleil-trou-de-fer.html) (click on the *VIRTUAL TRY ON* button on the bottom right of the product picture). As the iconic fashion-wear brand from the island of Réunion, *Pardon!* need a high-quality graphic rendering to show the quality of the materials of their sunglasses, especially for the engraved wooden branches,
 
 * **Zeelool**: you can test it here: [Street-Artist product page](https://www.zeelool.com/goods-detail/ZVFT0271-01) (click on *AR Try on* on the top left of the product picture. They are still using a deprecated version of the viewer so the tracking jitters a bit).
@@ -93,13 +87,14 @@ Here are the most important reasons why you should consider adding a virtual try
 
 ## Glasses 3D models
 
-### From GlassesDB
+<!-- ### From GlassesDB -->
 
 Glasses models are stored on the *Jeeliz GlassesDB*. Each model is identified by a unique SKU. You can check the different models available by opening [glassesSKU.csv](/glassesSKU.csv) file.
 
-If you want us to add specific glasses models to GlassesDB, please contact us at `contact__at__jeeliz.com` or [here](https://jeeliz.com/contact-us/). We charge for this service.
+If you want us to add specific glasses models to GlassesDB, please contact us at `contact__at__jeeliz.com` or [here](https://jeeliz.com/#contact).
 
 
+<!--
 ### As a static file
 
 You can convert your own glasses GLTF 3D Model to a proprietary JSON file accepted by this widget using [Jeeliz Glasses Studio 3D](https://jeeliz.com/glassesStudio3D/). You can download:
@@ -124,21 +119,14 @@ However, the capabilities of *Glasses Studio 3D* are below what we offer with *G
 | 3D model compression |  | X |
 | Guaranteed support |  | X |
 | Hosting |  | X |
-
+-->
 
 ## Documentation
 
-This library relies on *WebAR.rocks WebGL Deep Learning technology* to detect and track the face using a neural network.
+<!-- This library relies on *WebAR.rocks WebGL Deep Learning technology* to detect and track the face using a neural network. -->
 You can find the technical documentation in [doc.pdf](/doc.pdf).
 
-<!-- Here are some articles to help you for integration:
-
-* [How to use the Jeeliz VTO widget in your everyday projects](https://jeeliz.com/blog/how-to-use-the-jeeliz-vto-widget-in-your-everyday-projects/)
-* [Advanced use of the Jeeliz Widget VTO API](https://jeeliz.com/blog/advanced-use-of-the-jeeliz-widget-vto-api/)
-* [Create a VTO experience from start to sale](https://jeeliz.com/blog/create-a-glasses-vto-experience-from-start-to-sale-with-the-jeeliz-glasses-vto-widget/)
--->
-
-If you need more help, we offer development services and customized support. You can contact-us [here](https://jeeliz.com/contact-us/).
+<!-- If you need more help, we offer development services and customized support. You can contact-us [here](https://jeeliz.com/contact-us/). -->
 
 
 ## Misc
