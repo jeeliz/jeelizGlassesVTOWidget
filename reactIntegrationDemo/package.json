@@ -46,7 +46,7 @@
     "url": "git@github.com:jeeliz/jeelizGlassesVTOWidget"
   },
   "dependencies": {
-    "jeelizvtowidget": "^4.6.6",
+    "jeelizvtowidget": "^4.6.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
