@@ -129,8 +129,8 @@ button:hover {
   font-size: 16px;
   bottom: 0;  
   justify-content: center;
-  padding-top: 1em;
-  padding-bottom: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   display: none;
 }
 
