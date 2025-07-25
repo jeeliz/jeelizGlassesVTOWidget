@@ -160,9 +160,6 @@ If a compatibility error is triggered, please post an issue on this repository. 
 * the log from the web console,
 * the steps to reproduce the bug, and screenshots.
 
-If the user was not compatible or refuses to share its camera video stream, an image based fallback version was available til January 2020. The server side webservice generating the rendering has been undeployed.
-If the user does not want to share its camera or if its implementation of WebGL is too minimalistic, a `FALLBACKUNAVAILABLE` error will be triggered.
-
 
 ## Optimization
 
